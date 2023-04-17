@@ -1,0 +1,30 @@
+{
+  "cSpell.words": [
+    "asarray",
+    "CCOEFF",
+    "Denoising",
+    "denosied",
+    "dvla",
+    "frombuffer",
+    "frontalface",
+    "haarcascade",
+    "haarcascades",
+    "imdecode",
+    "imencode",
+    "imread",
+    "imshow",
+    "imwrite",
+    "linalg",
+    "mantine",
+    "ndarray",
+    "nparr",
+    "otpgen",
+    "OTSU",
+    "pytesseract",
+    "qrcode",
+    "Tesseract",
+    "thresholding",
+    "tobytes",
+    "TOTP"
+  ]
+}

@@ -1,0 +1,11 @@
+pytesseract~=0.3.10
+pillow~=9.4.0
+fastapi[all]~=0.92.0
+uvicorn~=0.20.0
+aiosqlite~=0.18.0
+qrcode~=7.4.2
+python-dotenv~=1.0.0
+pyotp~=2.8.0
+numpy~=1.24.2
+opencv-python~=4.7.0.72
+cmake~=3.25.2

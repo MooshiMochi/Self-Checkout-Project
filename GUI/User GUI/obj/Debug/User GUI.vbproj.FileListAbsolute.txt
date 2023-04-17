@@ -1,0 +1,37 @@
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\obj\Debug\User GUI.vbproj.AssemblyReference.cache
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\obj\Debug\User GUI.vbproj.SuggestedBindingRedirects.cache
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\obj\Debug\User_GUI.Resources.resources
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\obj\Debug\User GUI.vbproj.GenerateResource.cache
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\obj\Debug\User GUI.vbproj.CoreCompileInputs.cache
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\bin\Debug\User GUI.exe.config
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\bin\Debug\User GUI.exe
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\bin\Debug\User GUI.pdb
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\bin\Debug\User GUI.xml
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\bin\Debug\AForge.dll
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\bin\Debug\AForge.Video.dll
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\obj\Debug\User GUI.vbproj.CopyComplete
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\obj\Debug\User GUI.exe
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\obj\Debug\User GUI.xml
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\obj\Debug\User GUI.pdb
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\obj\Debug\User_GUI.TestGUI.resources
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\obj\Debug\User_GUI.CheckOutMachineUI.resources
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\obj\Debug\User_GUI.Main.resources
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\bin\Debug\User GUI.exe.config
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\bin\Debug\User GUI.exe
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\bin\Debug\User GUI.pdb
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\bin\Debug\User GUI.xml
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\bin\Debug\AForge.dll
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\bin\Debug\AForge.Video.DirectShow.dll
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\bin\Debug\AForge.Video.dll
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\obj\Debug\User GUI.vbproj.AssemblyReference.cache
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\obj\Debug\User_GUI.CheckOutMachineUI.resources
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\obj\Debug\User_GUI.Main.resources
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\obj\Debug\User_GUI.TestGUI.resources
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\obj\Debug\User_GUI.Resources.resources
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\obj\Debug\User GUI.vbproj.GenerateResource.cache
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\obj\Debug\User GUI.vbproj.CoreCompileInputs.cache
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\obj\Debug\User GUI.exe
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\obj\Debug\User GUI.xml
+\\C6FC-STUDENT1\2019$\rc639208\Computer Science A level\Year 2 Project\Self-Checkout\GUI\User GUI\obj\Debug\User GUI.pdb
+C:\Users\rchir\OneDrive\Desktop\GitProjects\Self-Checkout\GUI\User GUI\obj\Debug\User_GUI.ForgotPassword.resources

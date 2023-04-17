@@ -1,0 +1,38 @@
+{
+    "test_1": {
+        "customers": {
+            "customer_id": 3,
+            "username": "morgan_test_mail@test.com",
+            "password": "morgan_test_password"
+        },
+        "documents": {
+            "customer_id": 3,
+            "document_data": null
+        },
+        "personal_details": {
+            "customer_id": 3,
+            "first_name": "Morgan",
+            "last_name": "Harris",
+            "DoB": "22-10-2004",
+            "verified": false
+        }
+    },
+    "test_2": {
+        "customers": {
+            "customer_id": 2,
+            "username": "sarah_test_mail@test.com",
+            "password": "sarah_test_password"
+        },
+        "documents": {
+            "customer_id": 2,
+            "document_data": null
+        },
+        "personal_details": {
+            "customer_id": 2,
+            "first_name": "Sarah",
+            "last_name": "Harris",
+            "DoB": "11-03-2006",
+            "verified": false
+        }
+    }
+}
