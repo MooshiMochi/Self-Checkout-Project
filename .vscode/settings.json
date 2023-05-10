@@ -4,6 +4,9 @@
     "CCOEFF",
     "Denoising",
     "denosied",
+    "deskew",
+    "deskewed",
+    "deskewing",
     "dvla",
     "frombuffer",
     "frontalface",
@@ -23,6 +26,7 @@
     "pytesseract",
     "qrcode",
     "Tesseract",
+    "thresholded",
     "thresholding",
     "tobytes",
     "TOTP"

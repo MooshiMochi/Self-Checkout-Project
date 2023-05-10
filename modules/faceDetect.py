@@ -36,7 +36,7 @@ def is_same_person(
     image_b: CV2Image,
     face_a_coords: list[tuple[int, int, int, int]],
     face_b_coords: list[tuple[int, int, int, int]],
-    threshold: float = 0.8,
+    threshold: float = 0.6,
 ):
     # Get the first face in each image
     (x_a, y_a, w_a, h_a) = face_a_coords[0]
@@ -56,6 +56,7 @@ def is_same_person(
     similarity = np.dot(embedding_a, embedding_b) / (
         np.linalg.norm(embedding_a) * np.linalg.norm(embedding_b)
     )
+    print(f"Image similarity: {similarity}")
     if similarity >= threshold:
         return True
     else:

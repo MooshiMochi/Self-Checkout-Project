@@ -7,8 +7,7 @@ Public Class CheckOutMachineUI
 
 
     Dim CAMARA As VideoCaptureDevice
-    Dim Cap As String = "Capture"
-    Dim productAgeRequirement As Integer = 18
+    ReadOnly productAgeRequirement As Integer = 18
 
     Dim customer_id As Integer = Nothing
 
