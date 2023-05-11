@@ -5,10 +5,9 @@ import cv2
 import numpy as np
 import pytesseract
 
-from modules.cv2_utils import (
-    CV2Image,
-    load_image,
-)
+from modules.cv2_utils import CV2Image, load_image
+
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 
 # Path: modules\ocr.py
@@ -28,7 +27,9 @@ def deskew_image(image: CV2Image) -> CV2Image:
     (h, w) = image.shape[:2]
     center = (w // 2, h // 2)
     _M = cv2.getRotationMatrix2D(center, angle, 1.0)
-    _rotated = cv2.warpAffine(image, _M, (w, h), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
+    _rotated = cv2.warpAffine(
+        image, _M, (w, h), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE
+    )
 
     return _rotated
 
@@ -41,7 +42,9 @@ def process_image(image: CV2Image) -> CV2Image:
     blurred = cv2.GaussianBlur(gray, (5, 5), 0)
 
     # Perform adaptive thresholding to create a binary image
-    thresholded = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 61, 3)
+    thresholded = cv2.adaptiveThreshold(
+        blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 61, 3
+    )
 
     # Perform morphological operations to remove noise and fill in gaps
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
@@ -73,8 +76,13 @@ def draw_boxes(image: CV2Image) -> CV2Image:
     boxes = pytesseract.image_to_boxes(image, lang="eng", config="--psm 11")
     for b in boxes.splitlines():
         b = b.split(" ")
-        image = cv2.rectangle(image, (int(b[1]), image.shape[0] - int(b[2])), (int(b[3]), image.shape[0] - int(b[4])),
-                              (0, 255, 0), 2)
+        image = cv2.rectangle(
+            image,
+            (int(b[1]), image.shape[0] - int(b[2])),
+            (int(b[3]), image.shape[0] - int(b[4])),
+            (0, 255, 0),
+            2,
+        )
 
     return image
 
@@ -94,7 +102,9 @@ def read_text(image: CV2Image, psm: int = 11) -> str:
     * str: The text from the image
     """
     # use Tesseract to process the preprocessed image and extract the text
-    _text = pytesseract.image_to_string(image, lang="eng", config=f"--psm {psm} --oem 3")
+    _text = pytesseract.image_to_string(
+        image, lang="eng", config=f"--psm {psm} --oem 3"
+    )
     if not isinstance(_text, str):
         return "".join(_text)
     else:
@@ -124,7 +134,9 @@ def get_date_of_birth(text: str) -> datetime | None:
 if __name__ == "__main__":
     import os
 
-    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+    pytesseract.pytesseract.tesseract_cmd = (
+        r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+    )
 
     parent_dir = os.path.pardir
     img_paths = ["test/samples/sarah_dvla.jpg", "test/samples/morgan_dvla.jpeg"]
